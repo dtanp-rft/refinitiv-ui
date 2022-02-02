@@ -391,72 +391,86 @@
     {
       "packageName": "@refinitiv-ui/configurations",
       "projectFolder": "packages/configurations",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/utils",
       "projectFolder": "packages/utils",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/core",
       "projectFolder": "packages/core",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/phrasebook",
       "projectFolder": "packages/phrasebook",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/i18n",
       "projectFolder": "packages/i18n",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/translate",
       "projectFolder": "packages/translate",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/demo-block",
       "projectFolder": "packages/demo-block",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/test-helpers",
       "projectFolder": "packages/test-helpers",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/theme-compiler",
       "projectFolder": "packages/theme-compiler",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/elemental-theme",
       "projectFolder": "packages/elemental-theme",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/solar-theme",
       "projectFolder": "packages/solar-theme",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/halo-theme",
       "projectFolder": "packages/halo-theme",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/elements",
       "projectFolder": "packages/elements",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     },
     {
       "packageName": "@refinitiv-ui/polyfills",
       "projectFolder": "packages/polyfills",
-      "reviewCategory": "libraries"
+      "reviewCategory": "libraries",
+      "shouldPublish": true
     }
     // {
     //  "packageName": "@refinitiv-ui/docs",
