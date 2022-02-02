@@ -29,13 +29,13 @@
     "tslib": "^2.3.1"
   },
   "devDependencies": {
-    "@refinitiv-ui/configurations": "workspace:*",
-    "@refinitiv-ui/test-helpers": "workspace:*",
+    "@refinitiv-ui/configurations": "workspace:^",
+    "@refinitiv-ui/test-helpers": "workspace:^",
     "eslint": "^8.7.0",
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
-    "@refinitiv-ui/phrasebook": "workspace:*"
+    "@refinitiv-ui/phrasebook": "workspace:^"
   },
   "publishConfig": {
     "access": "public"

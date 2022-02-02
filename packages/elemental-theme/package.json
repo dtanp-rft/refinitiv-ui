@@ -22,7 +22,7 @@
     "watch": "watch \"npm run build\" src --wait=10"
   },
   "devDependencies": {
-    "@refinitiv-ui/theme-compiler": "workspace:*",
+    "@refinitiv-ui/theme-compiler": "workspace:^",
     "watch": "^1.0.2"
   },
   "publishConfig": {

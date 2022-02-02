@@ -32,17 +32,17 @@
     "@formatjs/intl-locale": "^2.4.41",
     "@formatjs/intl-numberformat": "^7.2.6",
     "@formatjs/intl-pluralrules": "^4.1.6",
-    "@refinitiv-ui/configurations": "workspace:*",
-    "@refinitiv-ui/core": "workspace:*",
-    "@refinitiv-ui/test-helpers": "workspace:*",
+    "@refinitiv-ui/configurations": "workspace:^",
+    "@refinitiv-ui/core": "workspace:^",
+    "@refinitiv-ui/test-helpers": "workspace:^",
     "@web/dev-server": "^0.1.17",
     "@web/dev-server-legacy": "^0.1.7",
     "eslint": "^8.7.0",
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
-    "@refinitiv-ui/i18n": "workspace:*",
-    "@refinitiv-ui/phrasebook": "workspace:*"
+    "@refinitiv-ui/i18n": "workspace:^",
+    "@refinitiv-ui/phrasebook": "workspace:^"
   },
   "publishConfig": {
     "access": "public"

@@ -323,8 +323,8 @@
   },
   "dependencies": {
     "@refinitiv-ui/browser-sparkline": "1.1.7",
-    "@refinitiv-ui/halo-theme": "workspace:*",
-    "@refinitiv-ui/solar-theme": "workspace:*",
+    "@refinitiv-ui/halo-theme": "workspace:^",
+    "@refinitiv-ui/solar-theme": "workspace:^",
     "@types/chart.js": "^2.9.31",
     "chart.js": "~2.9.4",
     "d3-interpolate": "^3.0.1",
@@ -337,9 +337,9 @@
     "@formatjs/intl-locale": "^2.4.41",
     "@formatjs/intl-numberformat": "^7.2.6",
     "@formatjs/intl-pluralrules": "^4.1.6",
-    "@refinitiv-ui/configurations": "workspace:*",
-    "@refinitiv-ui/demo-block": "workspace:*",
-    "@refinitiv-ui/test-helpers": "workspace:*",
+    "@refinitiv-ui/configurations": "workspace:^",
+    "@refinitiv-ui/demo-block": "workspace:^",
+    "@refinitiv-ui/test-helpers": "workspace:^",
     "@types/d3-interpolate": "^3.0.1",
     "@web/dev-server": "^0.1.17",
     "@web/dev-server-legacy": "^0.1.7",
@@ -350,11 +350,11 @@
     "yargs": "^17.0.1"
   },
   "peerDependencies": {
-    "@refinitiv-ui/core": "workspace:*",
-    "@refinitiv-ui/i18n": "workspace:*",
-    "@refinitiv-ui/phrasebook": "workspace:*",
-    "@refinitiv-ui/translate": "workspace:*",
-    "@refinitiv-ui/utils": "workspace:*"
+    "@refinitiv-ui/core": "workspace:^",
+    "@refinitiv-ui/i18n": "workspace:^",
+    "@refinitiv-ui/phrasebook": "workspace:^",
+    "@refinitiv-ui/translate": "workspace:^",
+    "@refinitiv-ui/utils": "workspace:^"
   },
   "publishConfig": {
     "access": "public"

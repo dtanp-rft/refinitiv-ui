@@ -84,7 +84,7 @@
     "test": "npm run build && mocha __test__/**/*.js --require esm"
   },
   "devDependencies": {
-    "@refinitiv-ui/configurations": "workspace:*",
+    "@refinitiv-ui/configurations": "workspace:^",
     "chai": "^4.3.4",
     "chalk": "^4.1.1",
     "eslint": "^8.7.0",

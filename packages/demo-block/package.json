@@ -25,21 +25,21 @@
   "author": "Refinitiv",
   "license": "Apache-2.0",
   "dependencies": {
-    "@refinitiv-ui/elemental-theme": "workspace:*",
-    "@refinitiv-ui/halo-theme": "workspace:*",
-    "@refinitiv-ui/solar-theme": "workspace:*",
+    "@refinitiv-ui/elemental-theme": "workspace:^",
+    "@refinitiv-ui/halo-theme": "workspace:^",
+    "@refinitiv-ui/solar-theme": "workspace:^",
     "tslib": "^2.3.1"
   },
   "devDependencies": {
-    "@refinitiv-ui/configurations": "workspace:*",
-    "@refinitiv-ui/test-helpers": "workspace:*",
+    "@refinitiv-ui/configurations": "workspace:^",
+    "@refinitiv-ui/test-helpers": "workspace:^",
     "@web/dev-server": "^0.1.17",
     "@web/dev-server-legacy": "^0.1.7",
     "eslint": "^8.7.0",
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
-    "@refinitiv-ui/core": "workspace:*"
+    "@refinitiv-ui/core": "workspace:^"
   },
   "publishConfig": {
     "access": "public"
