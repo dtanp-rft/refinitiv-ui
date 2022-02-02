@@ -27,6 +27,13 @@
   "dependencies": {
     "@open-wc/testing": "^3.0.0-next.5",
     "@types/mocha": "^5.2.7",
-    "mocha": "^6.2.3"
+    "@types/sinon": "^9.0.0",
+    "mocha": "^6.2.3",
+    "sinon": "^9.2.4"
+  },
+  "devDependencies": {
+    "@refinitiv-ui/configurations": "workspace:*",
+    "eslint": "^8.7.0",
+    "typescript": "^4.4.3"
   }
 }

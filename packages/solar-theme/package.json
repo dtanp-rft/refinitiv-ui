@@ -22,10 +22,11 @@
     "watch": "watch \"npm run build\" src --wait=10"
   },
   "dependencies": {
-    "@refinitiv-ui/elemental-theme": "^5.4.2"
+    "@refinitiv-ui/elemental-theme": "workspace:*"
   },
   "devDependencies": {
-    "@refinitiv-ui/theme-compiler": "^5.1.0-alpha.1"
+    "@refinitiv-ui/theme-compiler": "workspace:*",
+    "watch": "^1.0.2"
   },
   "publishConfig": {
     "access": "public"

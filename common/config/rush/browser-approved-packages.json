@@ -1,0 +1,266 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@formatjs/icu-messageformat-parser",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@formatjs/intl-getcanonicallocales",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@formatjs/intl-locale",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@formatjs/intl-numberformat",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@formatjs/intl-pluralrules",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@formatjs/intl-utils",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@juggle/resize-observer",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@open-wc/testing",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/browser-sparkline",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/configurations",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/core",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/demo-block",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/elemental-theme",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/halo-theme",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/i18n",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/phrasebook",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/solar-theme",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/test-helpers",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/theme-compiler",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/translate",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@refinitiv-ui/utils",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@web/dev-server",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@web/dev-server-legacy",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@webcomponents/custom-elements",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@webcomponents/shadycss",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@webcomponents/shadydom",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@webcomponents/template",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@webcomponents/webcomponents-platform",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "autoprefixer",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "chai",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "chalk",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "chart.js",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "clean-css",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "concurrently",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "core-js",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "css-select",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "d3-color",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "d3-interpolate",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "date-fns",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "deepmerge",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "dom-serializer",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-html",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "esm",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "fs-extra",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "glob",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "glob-promise",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "htmlparser2",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "intl-format-cache",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "intl-messageformat",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "less",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "less-plugin-npm-import",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "lightweight-charts",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "lit",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "mocha",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "postcss",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "shady-css-scoped-element",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "sinon",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "tslib",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "watch",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "yargs",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "yargs-parser",
+      "allowedCategories": [ "libraries" ]
+    }
+  ]
+}

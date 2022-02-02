@@ -37,18 +37,12 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@formatjs/intl-getcanonicallocales": "^1.8.0",
-    "@formatjs/intl-locale": "^2.4.41",
-    "@formatjs/intl-numberformat": "^7.2.6",
-    "@formatjs/intl-pluralrules": "^4.1.6",
+    "@microsoft/rush": "^5.61.3",
     "@open-wc/karma-esm": "^4.0.0",
-    "@web/dev-server": "^0.1.17",
-    "@web/dev-server-legacy": "^0.1.7",
-    "chalk": "^4.1.1",
     "concurrently": "^6.1.0",
     "deepmerge": "^4.2.2",
     "es-dev-server": "^2.1.0",
-    "eslint": "^7.19.0",
+    "eslint": "^8.7.0",
     "fast-glob": "^3.2.5",
     "husky": "^4.3.8",
     "karma": "^6.3.4",
@@ -66,10 +60,6 @@
     "lint-staged": "^10.5.4",
     "micromatch": "^4.0.4",
     "request": "^2.88.2",
-    "sinon": "^9.2.4",
-    "typescript": "^4.4.3",
-    "watch": "^1.0.2",
-    "web-component-analyzer": "^1.1.6",
-    "yargs": "^17.0.1"
+    "web-component-analyzer": "^1.1.6"
   }
 }

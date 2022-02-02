@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "@refinitiv-ui/configurations/tsconfig.json",
   "include": ["./src/translate.ts"],
   "compilerOptions": {
     "outDir": "./lib",

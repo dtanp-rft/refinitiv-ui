@@ -23,6 +23,9 @@ export {
   elementUpdated
 } from '@open-wc/testing';
 
+import sinon from 'sinon';
+export { sinon };
+
 export interface CustomKeyboardEvent extends CustomEvent {
   key: string;
   shiftKey: boolean;

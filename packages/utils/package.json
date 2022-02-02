@@ -55,5 +55,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@refinitiv-ui/configurations": "workspace:*",
+    "eslint": "^8.7.0",
+    "typescript": "^4.4.3"
   }
 }
