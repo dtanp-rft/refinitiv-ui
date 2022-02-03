@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@refinitiv-ui/configurations": "workspace:^",
+    "@refinitiv-ui/core": "workspace:^",
     "@refinitiv-ui/test-helpers": "workspace:^",
     "@web/dev-server": "^0.1.17",
     "@web/dev-server-legacy": "^0.1.7",

@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@refinitiv-ui/configurations": "workspace:^",
+    "@refinitiv-ui/phrasebook": "workspace:^",
     "@refinitiv-ui/test-helpers": "workspace:^",
     "eslint": "^8.7.0",
     "typescript": "^4.4.3"
