@@ -2,8 +2,5 @@
   "extends": "./packages/configurations/tsconfig.json",
   "compilerOptions": {
     "incremental": true
-  },
-  "references": [
-    { "path" : "./packages/**/src/**/*.ts" }
-  ]
+  }
 }
