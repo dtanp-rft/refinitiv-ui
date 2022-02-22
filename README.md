@@ -154,3 +154,4 @@ Commit prefixes must be written in a correct pattern when committing code into E
 | `performance(<package-name>):`     |        PATCH        | A code change that improves performance.<br/>**performance(coral-button): lazy load internal DOM structure**                                                      |
 | `test(<package-name>):`            |        PATCH        | Add missing tests.<br/>**test(coral-button): increase code coverage to 85%**                                                                                      |
 | `chore(<package-name>):`           |        PATCH        | Changes to the build process, dependency updates and other maintenance-related commits.<br/>**chore(coral-button): upgrade dependencies**                         |
+
