@@ -3,5 +3,7 @@
   "compilerOptions": {
     "incremental": true
   },
-  "include": ["./packages/**/*.ts"],
+  "references": [
+    { "path" : "./packages/**/src/**/*.ts" }
+  ]
 }
