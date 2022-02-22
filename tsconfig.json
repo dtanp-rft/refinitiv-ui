@@ -2,5 +2,6 @@
   "extends": "./packages/configurations/tsconfig.json",
   "compilerOptions": {
     "incremental": true
-  }
+  },
+  "include": ["./packages/elements/src/**/*.ts"],
 }
