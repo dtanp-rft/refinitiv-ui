@@ -1,5 +1,5 @@
 {
-  "extends": "@refinitiv-ui/configurations/tsconfig.json",
+  "extends": "./node_modules/@refinitiv-ui/configurations/tsconfig.json",
   "compilerOptions": {
     "incremental": true
   }
