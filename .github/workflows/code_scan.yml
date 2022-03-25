@@ -21,7 +21,7 @@ jobs:
         run: npm run reset
       - name: Build
         if: steps.setup.outputs.cache-build-hit != 'true'
-        run: npm run build:affected -- --base=$BASE_SHA        
+        run: npm run build
       - name: Test
         run: npm run test -- --browsers chrome
       - name: SonarCloud Scan
