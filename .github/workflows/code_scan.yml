@@ -1,7 +1,7 @@
 name: "Code Scan"
 on:
   push:
-    branch: v6
+    branches: [v6]
   pull_request:
 
 jobs:
