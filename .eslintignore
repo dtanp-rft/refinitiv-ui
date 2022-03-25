@@ -3,6 +3,7 @@ node_modules/
 __snapshots__/
 coverage/
 lib/
+samples/
 !**/*.ts
 !**/*.html
 !test/*.js

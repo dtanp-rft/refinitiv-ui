@@ -7,7 +7,6 @@
 ```html
 <ef-number-field
   aria-label="0 hours"
-  aria-readonly="true"
   id="hours"
   max="23"
   min="0"
@@ -22,7 +21,6 @@
 </span>
 <ef-number-field
   aria-label="0 minutes"
-  aria-readonly="true"
   id="minutes"
   max="59"
   min="0"
@@ -37,7 +35,6 @@
 </span>
 <ef-number-field
   aria-label="0 seconds"
-  aria-readonly="true"
   id="seconds"
   max="59"
   min="0"
@@ -52,8 +49,10 @@
   aria-label="Selected time is: 00:00:00"
   aria-live="polite"
   part="aria-selection"
+  role="status"
 >
 </div>
+
 ```
 
 ####   `DOM structure: disabled`
@@ -109,8 +108,10 @@
   aria-label="Selected time is: 00:00:00"
   aria-live="polite"
   part="aria-selection"
+  role="status"
 >
 </div>
+
 ```
 
 ####   `DOM structure: value, no seconds`
@@ -144,8 +145,10 @@
   aria-label="Selected time is: 08:16"
   aria-live="polite"
   part="aria-selection"
+  role="status"
 >
 </div>
+
 ```
 
 ####   `DOM structure: value, with seconds`
@@ -192,8 +195,10 @@
   aria-label="Selected time is: 08:16:32"
   aria-live="polite"
   part="aria-selection"
+  role="status"
 >
 </div>
+
 ```
 
 ####   `DOM structure: value, am/pm no seconds`
@@ -253,8 +258,10 @@
   aria-label="Selected time is: 1:30 PM"
   aria-live="polite"
   part="aria-selection"
+  role="status"
 >
 </div>
+
 ```
 
 ####   `DOM structure: role=none`

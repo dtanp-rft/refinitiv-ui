@@ -10,16 +10,16 @@ import {
   FocusedPropertyKey,
   StyleMap
 } from '@refinitiv-ui/core';
-import { customElement } from '@refinitiv-ui/core/lib/decorators/custom-element.js';
-import { property } from '@refinitiv-ui/core/lib/decorators/property.js';
-import { query } from '@refinitiv-ui/core/lib/decorators/query.js';
-import { eventOptions } from '@refinitiv-ui/core/lib/decorators/event-options.js';
-import { styleMap } from '@refinitiv-ui/core/lib/directives/style-map.js';
-import { ifDefined } from '@refinitiv-ui/core/lib/directives/if-defined.js';
-import { TemplateMap } from '@refinitiv-ui/core/lib/directives/template-map.js';
+import { customElement } from '@refinitiv-ui/core/decorators/custom-element.js';
+import { property } from '@refinitiv-ui/core/decorators/property.js';
+import { query } from '@refinitiv-ui/core/decorators/query.js';
+import { eventOptions } from '@refinitiv-ui/core/decorators/event-options.js';
+import { styleMap } from '@refinitiv-ui/core/directives/style-map.js';
+import { ifDefined } from '@refinitiv-ui/core/directives/if-defined.js';
+import { TemplateMap } from '@refinitiv-ui/core/directives/template-map.js';
 import { VERSION } from '../version.js';
-import { CollectionComposer, DataItem } from '@refinitiv-ui/utils/lib/collection.js';
-import { AnimationTaskRunner, TimeoutTaskRunner } from '@refinitiv-ui/utils/lib/async.js';
+import { CollectionComposer, DataItem } from '@refinitiv-ui/utils/collection.js';
+import { AnimationTaskRunner, TimeoutTaskRunner } from '@refinitiv-ui/utils/async.js';
 import { ItemData } from '../item';
 import { ComboBoxData, ComboBoxFilter } from './helpers/types';
 import type { List } from '../list/index.js';
@@ -31,7 +31,7 @@ import '../overlay/index.js';
 import '../list/index.js';
 import '../counter/index.js';
 import { translate, TranslateDirective } from '@refinitiv-ui/translate';
-import '@refinitiv-ui/phrasebook/lib/locale/en/combo-box.js';
+import '@refinitiv-ui/phrasebook/locale/en/combo-box.js';
 
 export type { ComboBoxFilter, ComboBoxData };
 export { ComboBoxRenderer };
@@ -279,13 +279,22 @@ export class ComboBox<T extends DataItem = ItemData> extends FormFieldElement {
     else {
       // Clone value arrays
       const newValues = values.slice(0, this.multiple ? values.length : 1);
-      const oldValues = this.composerValues.slice();
+      const oldValues = this.values.slice();
       // Create comparison strings to check for differences
       const newComparison = newValues.sort().toString();
       const oldComparison = oldValues.sort().toString();
-      // Should we update the selection state?
+
+      // Update the selection state when found new value
       if (newComparison !== oldComparison) {
         this.updateComposerValues(newValues);
+
+        if (this.freeText) {
+          // free text mode is only supported in single selection mode
+          // so if there is no valid selection in the composer, we can assume
+          // the first item can be used as the free text item.
+          this.freeTextValue = !this.composerValues.length ? newValues[0] : '';
+        }
+
         this.requestUpdate('values', oldValues);
       }
     }
@@ -1230,6 +1239,7 @@ export class ComboBox<T extends DataItem = ItemData> extends FormFieldElement {
     return html`
       <ef-list
         id="internal-list"
+        tabindex="-1"
         @value-changed="${this.onListValueChanged}"
         .data="${this.composer}"
         .multiple="${this.multiple}"
