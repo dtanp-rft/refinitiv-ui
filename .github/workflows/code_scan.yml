@@ -23,7 +23,7 @@ jobs:
         if: steps.setup.outputs.cache-build-hit != 'true'
         run: npm run build
       - name: Test
-        run: npm run test -- --browsers chrome
+        run: npm run test
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
