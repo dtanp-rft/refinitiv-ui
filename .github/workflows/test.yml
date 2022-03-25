@@ -1,5 +1,5 @@
 name: Test
-on: [push, pull_request] # Triggers on any branch
+on: [pull_request] # Triggers on any branch
 env:
   BASE_SHA: ${{ github.event.pull_request.base.sha }}
 jobs:
@@ -57,12 +57,6 @@ jobs:
 
       - name: Test
         run: npm run test:affected -- --base=$BASE_SHA --browsers chrome
-
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets. SONAR_TOKEN }}
 
   firefox:
     needs: lint
