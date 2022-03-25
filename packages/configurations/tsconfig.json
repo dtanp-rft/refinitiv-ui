@@ -3,7 +3,7 @@
     "target": "ES2020",
     "module": "ES2015",
     "moduleResolution": "node",
-    "lib": ["ES2020", "DOM", "DOM.Iterable", "ES2020.Intl", "ES2021.Intl", "ESNext.Intl"],
+    "lib": ["es2020", "dom", "dom.iterable", "es2020.intl", "esnext.intl"],
     "experimentalDecorators": true,
     "esModuleInterop": true,
     "strict": true,
