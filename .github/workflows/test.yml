@@ -58,12 +58,6 @@ jobs:
       - name: Test
         run: npm run test:affected -- --base=$BASE_SHA --browsers chrome
 
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets. SONAR_TOKEN }}
-
   firefox:
     needs: lint
     runs-on: ubuntu-latest
